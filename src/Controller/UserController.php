@@ -76,7 +76,7 @@ class UserController extends AbstractController
 
         $data = [
             'status' => 'error',
-            'code' => 200,
+            'code' => 400,
             'message' => 'El usuario no se ha creado'
         ];
 
